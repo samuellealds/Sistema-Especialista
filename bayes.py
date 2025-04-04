@@ -15,6 +15,7 @@ def extract_files(uploader):
 # CRIAR A INTERFACE
 def main():
     st.title("O nome do meu sistema inteligente")
+    # Incluir uma imagem de acordo ao sistema escolhido
     with st.sidebar:
         st.header("UPLoader Files")
         uploader = st.file_uploader("Adicione arquivos", type="pdf", accept_multiple_files=True)
